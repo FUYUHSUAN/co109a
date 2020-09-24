@@ -11,10 +11,13 @@
  *                            {0, 0, 0, 0, 0, 0, 0, in} if sel == 111
  */
 
-CHIP DMux8Way {
+CHIP DMux8Way{
     IN in, sel[3];
     OUT a, b, c, d, e, f, g, h;
 
     PARTS:
     // Put your code here:
+    DMux(in=in,sel=sel[2],a=aDMux,b=bDMux);
+    DMux4Way(in=aDMux,sel=sel[0..1],a=a,b=b,c=c,d=d);
+    DMux4Way(in=bDMux,sel=sel[0..1],a=e,b=f,c=g,d=h);
 }
