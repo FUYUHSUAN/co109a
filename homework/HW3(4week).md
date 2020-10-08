@@ -1,6 +1,6 @@
 ### 1.HalfAdder 
 * picture
- <img src="picture/HalfAdder.jpg" width="300" height="500"  align=center /> 
+ <img src="picture/HalfAdder.jpg" weight="500" height="800"  align=center /> 
  
 * Explanation
 >* 加法器主要是構成ALU(算術邏輯單元的基礎)，半加器主要是將兩個一位元二進位相加，有兩個OUTPUT
@@ -30,7 +30,7 @@ CHIP HalfAdder {
 ```
 ### 2.FullAdder
 * picture
- <img src="picture/FullAdder.jpg" width="250" height="500"  align=center />
+ <img src="picture/FullAdder.jpg" weight="500" height="800"  align=center />
  
 * Explanation
 >* 全加法器有三個輸入a,b,cin(原carry)，有兩個輸出cout(相加後的carry),sum
@@ -65,7 +65,7 @@ CHIP FullAdder {
 ```
 ### 3.Add16
 * picture
- <img src="picture/Add16.jpg" width="250" height="500"  align=center /> 
+ <img src="picture/Add16.jpg" weight="500" height="800"  align=center /> 
  
 * Explanation
 >* 串接16個FullyAdder的十六位元加法器，因為C0不需考慮進位，可以將C0設為false或是將第一個FullyAdder改成HalfAdder也可以達成相同的結果
@@ -110,7 +110,7 @@ CHIP Add16 {
 ```
 ### Inc16
 * picture
-<img src="picture/Inc16.jpg" weight=500 height=800>
+<img src="picture/Inc16.jpg" weight="500" height="800"/>
 
 * Explanation
 >* 這是一個16位元的遞增器，及類似於Add16我共寫了三中寫法及圖示在我的程式碼及圖片中，分別是Add16,FullAdder和HalfAdder
