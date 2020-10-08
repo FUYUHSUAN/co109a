@@ -110,7 +110,7 @@ CHIP Add16 {
 ```
 ### Inc16
 * picture
-<img src="picture/Inc16.jpg" width="250" height="500"  align=center />
+<img src="picture/Inc16.jpg" weight=500 height=800>
 
 * Explanation
 >* 這是一個16位元的遞增器，及類似於Add16我共寫了三中寫法及圖示在我的程式碼及圖片中，分別是Add16,FullAdder和HalfAdder
