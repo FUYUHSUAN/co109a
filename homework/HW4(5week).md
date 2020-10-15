@@ -3,7 +3,7 @@
 
 #### ALU-nostat
 * picture
- <img src="picture/ALU-nostat.jpg" width="300" height="500"  /> 
+ <img src="picture/ALU-nostat.jpg" width="1000" height="600"  /> 
 
 * ALU-nostat code
 ```
@@ -68,7 +68,7 @@ CHIP ALU {
 
 #### ALU
 * picture
- <img src="picture/ALU.jpg" width="300" height="500"  /> 
+ <img src="picture/ALU.jpg" width="1000" height="600"   /> 
 
 * explanation
 >* 在ALU中所有用到的Or16Way因為我們沒有做，所以可以用兩個Or8Way和一個Or來做
@@ -146,6 +146,6 @@ CHIP ALU {
 
 * 補數
 * picture
- <img src="picture/補數.jpg" width="300" height="500"  /> 
+ <img src="picture/補數.jpg"  width="1000" height="600"  /> 
 
  
