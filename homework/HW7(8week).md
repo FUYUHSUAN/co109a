@@ -1,3 +1,9 @@
+### PC
+* picture
+<src img="picture/PC.jpg" width="1000" height="650">
+
+* code
+```
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
 // by Nisan and Schocken, MIT Press.
@@ -23,3 +29,4 @@ CHIP PC {
     Mux16(a=outlo,b=false,sel=reset,out=outre);
     Register(in=outre,load=true,out=PC,out=out);
 }
+```
