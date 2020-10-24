@@ -1,6 +1,6 @@
 ### Bit
 * picture
-<img src="picture/Bit.jpg" width="1000" height="600">
+<img src="picture/Bit.jpg" width="800" height="600">
 
 * code
 ```
@@ -27,7 +27,7 @@ CHIP Bit {
 
 ```
 ### Register
-<img src="picture/Register.jpg" width="1000" height="600">
+<img src="picture/Register.jpg" width="800" height="600">
 
 ```
 // This file is part of www.nand2tetris.org
