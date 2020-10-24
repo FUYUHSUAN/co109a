@@ -1,6 +1,6 @@
 ### PC
 * picture
-<src img="picture/PC.jpg" width="1000" height="650">
+<img src="picture/PC.jpg" width="1000" height="650">
 
 * code
 ```
