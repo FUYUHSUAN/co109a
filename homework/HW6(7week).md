@@ -1,6 +1,6 @@
 ### RAM8
 * picture
-<img src="picture/RAM8.jpg" width="1000" height="600">
+<img src="picture/RAM8.jpg" width="1000" height="650">
 
 * code
 ```
@@ -37,7 +37,7 @@ CHIP RAM8 {
 ```
 ### RAM64
 * picture
-<img src="picture/RAM64.jpg" width="1000" height="600">
+<img src="picture/RAM64.jpg" width="1000" height="650">
 
 * code
 
@@ -75,7 +75,7 @@ CHIP RAM64 {
 ```
 ### RAM512
 * picture
-<img src="picture/RAM512.jpg" width="1000" height="600">
+<img src="picture/RAM512.jpg" width="1000" height="650">
 
 * code
 
@@ -113,7 +113,7 @@ CHIP RAM512 {
 
 ### RAM4K
 * picture
-<img src="picture/RAM4K.jpg" width="1000" height="600">
+<img src="picture/RAM4K.jpg" width="1000" height="650">
 
 * code
 
@@ -151,7 +151,7 @@ CHIP RAM4K {
 
 ### RAM16K
 * picture
-<img src="picture/RAM16K.jpg" width="1000" height="600">
+<img src="picture/RAM16K.jpg" width="1000" height="650">
 
 * code
 
