@@ -35,4 +35,4 @@
     @WHILE1,0;JMP 
 ```
 * picture
-<img src="picture/fill.jpg" width="1000" height="650">
+<img src="picture/fill.png" width="1000" height="650">
