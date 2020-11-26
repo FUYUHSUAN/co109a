@@ -2,6 +2,7 @@
 * picture
 <img src="picture/CPU1.jpg" width="1000" height="650">
 <img src="picture/CPU2.jpg" width="1000" height="650">
+
 * code
 ```
 CHIP CPU {

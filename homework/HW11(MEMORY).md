@@ -1,3 +1,10 @@
+## Memory
+>* 測試到一半時會遇到請你按長按大寫的K，就需在右上角的View中切換到Screen就能按了
+* picture
+<img src="picture/Memory.jpg" width="1000" height="650">
+
+* code
+```
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
 // by Nisan and Schocken, MIT Press.
@@ -39,3 +46,4 @@ CHIP Memory {
     Mux16(a=S,b=kout,sel=address[13],out=outSk);
     Mux16(a=R,b=outSk,sel=address[14],out=out);
 }
+```
