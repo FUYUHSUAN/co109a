@@ -1,7 +1,7 @@
 ## Computer
 >* 有多個tst要一個一個試
 * picture
-<img src="picture/Memory.jpg" width="1000" height="650">
+<img src="picture/Computer.jpg" width="1000" height="650">
 
 * code
 ```
