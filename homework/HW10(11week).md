@@ -1,7 +1,19 @@
 ## CPU.hdl
 * picture
 <img src="picture/CPU1.jpg" width="1000" height="650">
-<img src="picture/CPU2.jpg" width="650" height="1000">
+
+>* zr和ng決定是否要跳。j1:小於，j2:等於，j3:大於
+>* C指令，A=D+1，A=D
+>* A指令，A=D，@1
+>* C指令和A指令都可以寫入A register
+>* Ca(isC)==> 判斷是A指令還是C指令
+>* Cb(isA|isB&&d1) ==> dest中有A的要寫入，所以d1=1時要寫入
+>* Cd ==> a
+>* Ce ==> zx=c1,nx=c2,zy=c3,ny=c4,f=c5,no=c6
+>* Cf ==> nr,ng
+>* Cg ==> ng&&j1(<0),zr&&j2(=0),gt&&j3(>0)。(JMP)
+>* Ch ==> IsC&&d3
+>* Decoder ==> 先用OR16(a=false,b=instruction,out[15]=isC,out[12]=a,out[11]=c1...)
 
 * code
 ```
